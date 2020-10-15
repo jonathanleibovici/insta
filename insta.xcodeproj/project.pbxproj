@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,8 @@
 		507FC3F825361B7000251251 /* instaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507FC3F725361B7000251251 /* instaUITests.swift */; };
 		507FC41525363DCB00251251 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507FC41425363DCB00251251 /* LoginViewController.swift */; };
 		507FC41A25363DE900251251 /* feedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507FC41925363DE900251251 /* feedViewController.swift */; };
+		50FDD3A825378CD500093CF6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FDD3A725378CD500093CF6 /* CameraViewController.swift */; };
+		50FDD3D12537D1B600093CF6 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FDD3D02537D1B600093CF6 /* PostCell.swift */; };
 		9A20BF5F2A9AEA490A58D543 /* Pods_insta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5559498663FBE57FE7A87A6F /* Pods_insta.framework */; };
 		ACC78C775032B5B0DAE059F2 /* Pods_insta_instaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 315B98E2147C3C2126EF326F /* Pods_insta_instaUITests.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +59,8 @@
 		507FC3F925361B7000251251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		507FC41425363DCB00251251 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		507FC41925363DE900251251 /* feedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedViewController.swift; sourceTree = "<group>"; };
+		50FDD3A725378CD500093CF6 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		50FDD3D02537D1B600093CF6 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		5559498663FBE57FE7A87A6F /* Pods_insta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_insta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A7E91D72E0E73446A1D2FD /* Pods-insta-instaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta-instaUITests.release.xcconfig"; path = "Target Support Files/Pods-insta-instaUITests/Pods-insta-instaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A9C3528C2688F8D1E4C399A5 /* Pods-instaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaTests.release.xcconfig"; path = "Target Support Files/Pods-instaTests/Pods-instaTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 				507FC3E325361B7000251251 /* Info.plist */,
 				507FC41425363DCB00251251 /* LoginViewController.swift */,
 				507FC41925363DE900251251 /* feedViewController.swift */,
+				50FDD3A725378CD500093CF6 /* CameraViewController.swift */,
+				50FDD3D02537D1B600093CF6 /* PostCell.swift */,
 			);
 			path = insta;
 			sourceTree = "<group>";
@@ -410,9 +416,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				507FC41525363DCB00251251 /* LoginViewController.swift in Sources */,
+				50FDD3A825378CD500093CF6 /* CameraViewController.swift in Sources */,
 				507FC3D625361B6A00251251 /* AppDelegate.swift in Sources */,
 				507FC41A25363DE900251251 /* feedViewController.swift in Sources */,
 				507FC3D825361B6A00251251 /* SceneDelegate.swift in Sources */,
+				50FDD3D12537D1B600093CF6 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
