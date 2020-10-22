@@ -9,10 +9,11 @@ target 'insta' do
   pod 'Parse'
    pod 'Alamofire'
  pod 'AlamofireImage'
+pod 'MessageInputBar'
 
   target 'instaTests' do
     inherit! :search_paths
-    # Pods for testing
+    # Pods for testingin
   end
 
   target 'instaUITests' do
